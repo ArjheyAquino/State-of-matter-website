@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+	</head>
+	<body>
+		<div>
+		<ul>
+         <li><a href="{{ url_for('plasma') }}">PLASMA</a></li>
+         <li><a href="{{ url_for('gas') }}">GAS</a></li>
+         <li><a href="{{ url_for('liquid') }}">LIQUID</a></li>
+         <li><a href="{{ url_for('solid') }}">SOLID</a></li>
+         <li><a href="{{ url_for('index') }}">HOME</a></li>
+          <li id = "logo"><a href= "{{ url_for('about') }}">State of Matter</a></li> </div><br>
+				
+
+				<div class = "text-box">
+			<h1> </h1>
+	
+		<a href="about.html" class="hero-btn">About</a>
+	</div>
+	</body>
+</html>

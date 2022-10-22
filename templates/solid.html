@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+	</head>
+	<body>
+		<div>
+			<img src="static/images/banner2.png" width="100%" height="10%">
+		</div>
+		<div>
+		<ul>
+         <li><a href="{{ url_for('plasma') }}">PLASMA</a></li>
+         <li><a href="{{ url_for('gas') }}">GAS</a></li>
+         <li><a href="{{ url_for('liquid') }}">LIQUID</a></li>
+         <li><a href="{{ url_for('solid') }}">SOLID</a></li>
+         <li><a href="{{ url_for('index') }}">HOME</a></li>
+          <li id = "logo"><a href= "{{ url_for('about') }}">State of Matter</a></li> </div><br>
+
+		<div class = "state">
+			<h1 class = "headers">Solid<h1>
+			<p>A solid is defined as a state of matter with a definite shape and volume. In contrast, liquids can change shapes, while gases can change both shape and volume. The particles in a solid (atoms, molecules, ions) are tightly-packed compared to liquids and gases. The arrangement may be a regular lattice called a crystal or an irregular arrangement called an amorphous solid.</p>
+			<h1 class = "headers">Solid Example<h1>
+			<p> Most metals (coins, tools, cutlery, nails),Building materials (bricks, wood, glass, concrete), Everyday objects(pots and pans, desk, toys, computer, automobile) Rocks and minerals Gems and most crystals (diamond, sapphire, ruby), Ice ,Most chemical elements (exceptions include many nonmetals)</p>
+		</div>
+	
+
+	</div>
+	</body>
+</html>

@@ -1,0 +1,29 @@
+<html>
+	<head>
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+	</head>
+	<body>
+		<div>
+			<img src="static/images/banner3.jpg" width="100%" height="10%">
+		</div>
+		<div>
+		<ul>
+         <li><a href="{{ url_for('plasma') }}">PLASMA</a></li>
+         <li><a href="{{ url_for('gas') }}">GAS</a></li>
+         <li><a href="{{ url_for('liquid') }}">LIQUID</a></li>
+         <li><a href="{{ url_for('solid') }}">SOLID</a></li>
+         <li><a href="{{ url_for('index') }}">HOME</a></li>
+          <li id = "logo"><a href= "{{ url_for('about') }}">State of Matter</a></li> </div><br>
+
+		<div class = "state">
+			<h1 class = "headers">Liquid<h1>
+			<p>A liquid is one of the states of matter. The particles in a liquid are free to flow, so while a liquid has a definite volume, it does not have a definite shape. Liquids consist of atoms or molecules that are connected by intermolecular bonds.</p>
+			<h1 class = "headers">Liquid Example<h1>
+			<p> At room temperature, examples of liquids include water, mercury, vegetable oil, ethanol. Mercury is the only metallic element that is a liquid at room temperature, although francium, cesium, gallium, and rubidium liquefy at slightly elevated temperatures. Aside from mercury, the only liquid element at room temperature is bromine. The most abundant liquid on Earth is water.</p>
+		</div>
+	
+
+	</div>
+	</body>
+</html>

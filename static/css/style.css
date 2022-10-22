@@ -1,0 +1,96 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+   color: #ffd700;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+#ewan {
+
+}
+#logo {
+  float: left;
+  font-family: monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+body {
+  background-color: #2f4f4f;
+}
+.text-box{
+    width: 90%;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.text-box h1{
+    font-size: 62px;
+     color: #ffd700;
+}
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color: white;
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 12px 34px;
+    font-size: 13px;
+    background:transparent;
+    cursor: pointer;
+}
+.hero-btn:hover{
+    border: 1px solid #f44336;
+    background: #f44336;
+    transition: 1s;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.container { 
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+.state {
+  border-style: solid;
+  background-color: #9FE2BF;
+  text-indent: 10%;
+  text-align: justify;
+  text-shadow: 1px 1px gray;
+  padding-bottom: 8%;
+  border-radius: 20px;
+}
+.headers{
+  font-size: 50px;
+   text-decoration-line: underline;
+  text-decoration-thickness: auto;
+  text-align: center;
+  text-shadow: 1px 1px gray;
+}
